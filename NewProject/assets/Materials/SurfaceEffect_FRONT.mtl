@@ -1,0 +1,84 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "89d57aaa-cdda-43dd-9b26-da7e33db1c47",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 1,
+  "_defines": [
+    {
+      "SAMPLE_FROM_RT": true,
+      "ALPHA_TEST_CHANNEL": "r"
+    },
+    {},
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "priority": 129,
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 160
+      },
+      "rimColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 102,
+        "b": 0,
+        "a": 154
+      },
+      "rimPow": 2.88,
+      "rimIntensity": 3,
+      "noiseTexture": {
+        "__uuid__": "3b7751f3-9710-4472-bd74-b903d2eebb46@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "sceneTexture": {
+        "__uuid__": "df3a5bb4-1178-4fb2-9ce3-a7ade90a6926",
+        "__expectedType__": "cc.RenderTexture"
+      },
+      "XSpeed": 0.28,
+      "YSpeed": 0.35
+    },
+    {},
+    {}
+  ]
+}
