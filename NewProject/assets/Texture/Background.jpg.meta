@@ -11,7 +11,7 @@
     "6c48a": {
       "importer": "texture",
       "uuid": "f1ff95f3-3e2f-4cc1-a7f3-d3b1a9f9378e@6c48a",
-      "displayName": "new-york-city-downtown-brooklyn-bridge-september-11-tribute-night",
+      "displayName": "Background",
       "id": "6c48a",
       "name": "texture",
       "userData": {
@@ -19,7 +19,7 @@
         "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
-        "mipfilter": "nearest",
+        "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "f1ff95f3-3e2f-4cc1-a7f3-d3b1a9f9378e",
@@ -35,7 +35,7 @@
     "f9941": {
       "importer": "sprite-frame",
       "uuid": "f1ff95f3-3e2f-4cc1-a7f3-d3b1a9f9378e@f9941",
-      "displayName": "new-york-city-downtown-brooklyn-bridge-september-11-tribute-night",
+      "displayName": "Background",
       "id": "f9941",
       "name": "spriteFrame",
       "userData": {
@@ -128,9 +128,13 @@
   "userData": {
     "hasAlpha": false,
     "type": "sprite-frame",
-    "fixAlphaTransparencyArtifacts": true,
+    "fixAlphaTransparencyArtifacts": false,
     "redirect": "f1ff95f3-3e2f-4cc1-a7f3-d3b1a9f9378e@f9941",
     "flipVertical": false,
-    "flipGreenChannel": false
+    "flipGreenChannel": false,
+    "compressSettings": {
+      "useCompressTexture": false,
+      "presetId": "default"
+    }
   }
 }

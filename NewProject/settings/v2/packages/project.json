@@ -1,5 +1,6 @@
 {
   "__version__": "1.0.6",
+  "custom_joint_texture_layouts": [],
   "layer": [
     {
       "name": "SCENE",
@@ -9,6 +10,5 @@
       "name": "SPHERE",
       "value": 2
     }
-  ],
-  "custom_joint_texture_layouts": []
+  ]
 }

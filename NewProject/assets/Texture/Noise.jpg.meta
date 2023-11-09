@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "57133c7e-be4f-43af-92a7-0ab513dcc033",
+  "uuid": "3b7751f3-9710-4472-bd74-b903d2eebb46",
   "files": [
     ".jpg",
     ".json"
@@ -10,8 +10,8 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "57133c7e-be4f-43af-92a7-0ab513dcc033@6c48a",
-      "displayName": "HQ_Noise_LowEndClamp",
+      "uuid": "3b7751f3-9710-4472-bd74-b903d2eebb46@6c48a",
+      "displayName": "Noise",
       "id": "6c48a",
       "name": "texture",
       "userData": {
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "57133c7e-be4f-43af-92a7-0ab513dcc033",
+        "imageUuidOrDatabaseUri": "3b7751f3-9710-4472-bd74-b903d2eebb46",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,10 @@
     "hasAlpha": false,
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "57133c7e-be4f-43af-92a7-0ab513dcc033@6c48a"
+    "redirect": "3b7751f3-9710-4472-bd74-b903d2eebb46@6c48a",
+    "compressSettings": {
+      "useCompressTexture": false,
+      "presetId": "default"
+    }
   }
 }
